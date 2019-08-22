@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1566483553 source:/home/alumno/Documentos/Programacion (recu)/Ahorcado/Ahoracado/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+
+1566474182 source:/home/alumno/Documentos/Programacion (recu)/Ahorcado/Ahoracado/input.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"input.h"
+
+1566474182 /home/alumno/Documentos/Programacion (recu)/Ahorcado/Ahoracado/input.h
+
