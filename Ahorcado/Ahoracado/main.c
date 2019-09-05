@@ -9,8 +9,9 @@ int main()
     int largo;
     char* palabra;
     char letra;
+    int acertado[largo];
 
-    palabra=(char*)malloc(10);
+    palabra=(char*)malloc(25);
 
     printf("   AHORCADO   \n");
 
@@ -26,7 +27,7 @@ int main()
     //
     getchar();
     printf("\e[2J\e[H");
-/////////////////////////////////////////////////////////////////////////
+//////////////////////ELEGIR PALABRA/////////////////
     setbuf(stdin, NULL);
     getString(palabra, "Elija una palabra", "Esa palabra es muy larga", 1, 25);
     largo=strlen(palabra);
@@ -35,7 +36,7 @@ int main()
     //
     getchar();
     printf("\e[2J\e[H");
-/////////////////////////////////////////////////////////////////////////
+////////////////////////////////CUANTAS VIDAS/////////////////////////////////////////
     printf("Vidas: %d\n\n", vidas);
 
     for (int i=0;i<largo;i++)
@@ -46,8 +47,18 @@ int main()
    printf("\n\n\nElija una letra: ");
    scanf("%c", letra);
 
+////////////////////////
 
 
+    for (int i=0; i<largo;i++){
+
+    if(letra == *(palabra+i)){
+
+
+
+    }
+
+    }
 
 
     return 0;
